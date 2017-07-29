@@ -1,1 +1,42 @@
 /* Universal styles */
+
+body {
+  margin: 0px;
+}
+
+/* Universal styles */
+
+header {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: auto 30px;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: mediumaquamarine;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+ nav {
+  margin-right: 30px;
+ }
+span {
+  display: inline-block;
+  text-decoration: underline;
+  margin: auto 10px;
+}
