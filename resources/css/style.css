@@ -64,7 +64,7 @@ main {
   flex-direction: column;
   flex-grow: 1;
   margin-top: 40px;
-  margin-right: 30px;
+  margin-right: 29px;
 }
 
 .column.medium {
@@ -73,7 +73,7 @@ main {
   flex-direction: column;
   flex-grow: 1;
   margin-top: 40px;
-  margin-right: 30px;
+  margin-right: 29px;
 }
 
 .column.small {
@@ -82,7 +82,7 @@ main {
   flex-direction: column;
   flex-grow: 1;
   margin-top: 40px;
-  margin-right: 30px;
+  margin-right: 29px;
 }
 
 .headline {
@@ -97,4 +97,49 @@ main {
 #news-bites-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.article-text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.title-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#story-main-title {
+  font-size: 40px;
+}
+
+.title {
+  display: flex;
+}
+
+#story-main{
+  width: 629px;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+#story-1 {
+  width: 299px;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+#story-2 {
+  width: 299px;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+#story-3 {
+  width: 299px;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
 }
